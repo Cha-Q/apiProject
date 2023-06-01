@@ -1,3 +1,7 @@
+<?php 
+  require $function;
+?>
+
 <!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
   <head>
@@ -99,7 +103,9 @@
       }
       .active{
         text-decoration: underline;
-
+      }
+      a{
+        text-decoration: none;
       }
     </style>
 
@@ -161,23 +167,13 @@
     </div> -->
     </nope>
     
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column ">
-      <header class="mb-auto">
-        
-          <h3 class="float-md-start mb-0 ">Homepage</h3> 
-          <nav class="navbar row ">
-            <ul class="nav-item d-flex justify-content-between">
-              <li class="nav-item">
-                <a href="">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="">Api</a>
-              </li>
-              <li class="nav-item">
-                <a href="">More</a>
-              </li>
-            </ul>
-          </nav>
-      </header>
-      
-    </div>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0 ">I scream</h3> 
+        <nav class="nav nav-masthead py-0 justify-content-center ">
+          <?= nav_menu('nav-link'); ?>
+        </nav>
+      </div>
+    </header>
+  </div>
