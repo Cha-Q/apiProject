@@ -106,6 +106,7 @@
       }
       a{
         text-decoration: none;
+        
       }
     </style>
 
@@ -167,10 +168,10 @@
     </div> -->
     </nope>
     
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
       <div>
-        <h3 class="float-md-start mb-0 ">I scream</h3> 
+        <h3 class="float-md-start mb-0 ">How to API</h3> 
         <nav class="nav nav-masthead py-0 justify-content-center ">
           <?= nav_menu('nav-link'); ?>
         </nav>
