@@ -1,5 +1,3 @@
-[object Object]
-
 # API project
 
 ## Introduction to the project
