@@ -3,6 +3,8 @@ $title= 'Home of Api';
 $function = 'nav/nav_functions.php';
 require 'views/elements/header.php';
 require 'class/GetApi.php';
+
+// $apiK = 
 ?>
 
 
@@ -11,7 +13,7 @@ require 'class/GetApi.php';
             <label for='urlApi'>
                 Entrez l'adresse de l'Api que vous désirez utiliser :
             </label>
-            <input type="text" class="form-control" name='urlApi' id='urlApi' value='https://api.openweathermap.org/data/2.5/forecast?q=Montpellier,fr&cnt=5&appid=f0f63e85a8f0cdf5f2ad9af4145a787a' required>
+            <input type="text" class="form-control" name='urlApi' id='urlApi' value='https://api.openweathermap.org/data/2.5/forecast?q=Montpellier,fr&cnt=5&appid=<?= $apiK ?>' required>
         </div>
         <div class="form-group">
             <label for='apiKey'>
